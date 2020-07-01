@@ -11,3 +11,4 @@
 ### Use the template
 
 ```npx create-react-app my-app --template basic```
+# single-page-react-app
