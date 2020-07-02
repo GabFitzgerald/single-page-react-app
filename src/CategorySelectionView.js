@@ -9,7 +9,7 @@ export default function CategorySelectionView(props) {
                 {
                     props.categories.map((item, index) => (
                         <li>
-                            <Link to='entry/new/${index}'>{item}</Link>
+                            <Link to={`entry/new/${index}`}>{item}</Link>
                         </li>
                     ))
                 }
